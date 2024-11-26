@@ -1,0 +1,16 @@
+Instructions for making jekyll page in Github using VScode (WSL ubuntu)
+1. Create repository in github and go to settings > link to pages and ask to make it github pages
+2. Follow instructions to download RubyGems and other prereqs before downloading jekyll
+2. Open up Vscode use the following code in guide from jekyll; but first you need to create a jekyll site 
+so type in the code 'jekyll new [yoursite]'
+5. You should have a default site with a Gemfile, Gemfile.lock, _config.yml, etc. 
+    The original theme is minima but you can change it using other themes available (you can also transfer HTML5 up or Jekyll themes instead)
+
+https://jekyllrb.com/docs/installation/windows/
+
+*Be sure to clone your github repo onto computer locally and link it with github pages
+*Open up terminal using wsl (ubuntu)
+*cd to your dirctory or whatever the github io is 
+*Make sure to save every so often and if it asks for file permissions, use sudo to overide it 
+
+
